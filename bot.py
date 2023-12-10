@@ -3718,9 +3718,9 @@ def check_callback_data(callback):
 
        
 
-while True:
+while 1:
     try:
         bot.polling(none_stop=True)
 
-    except Exception as e:
+    except:
         time.sleep(15)
